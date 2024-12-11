@@ -16,6 +16,14 @@ header {
     display: flex;
     align-items: center;
     background-color: #ff0e0e;
+
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    
 }
 
 
@@ -68,51 +76,4 @@ ul {
 
 #nav-bar button:hover {
     background-color: rgb(37, 37, 147);
-}
-
-#main-container {
-    margin-top: 230px;
-    margin-left: 150px;
-}
-
-#main-container h1 {
-    font-size: 41px;
-    font-weight: bold;
-}
-
-#main-container p {
-    font-size: 16px;
-    color: #252525;
-}
-
-#main-container button {
-    border: none;
-    border-radius: 14px;
-    margin-top: 20px;
-    width: 135px;
-    height: 30px;
-    text-align: center;
-    align-items: center;
-    background-color: #df1414;
-    color: #fff;
-}
-
-#main-container button:hover{
-    background-color:#ca0606;
-}
-
-#main-container i {
-    padding: 2px;
-}
-
-#main-img {
-    margin-left: 50%;
-    margin-top: -18%;
-}
-
-#main-img img {
-    width: 350px;
-    border: none;
-    border-radius: 20px;
-    border: color #d7bfd8;
 }
