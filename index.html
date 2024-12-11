@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VecStore</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"defer></script>
 </head>
 <body>
     <header>
+        <h2>VecStore</h2>
+        <div id="search-container">
+            <i class="bi bi-search"></i>
+            <input type="text"
+            id="search-input"
+            placeholder="Busque um produto">
+        </div>
         <nav>
-            <ul id="main-nav">
-                <li><img src="img/logo.png" alt="logo"></li>
+            <ul id="nav-bar">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Produtos</a></li>
-                <li><a href="#">Historico</a></li>
+                <li><a href="#">Histórico</a></li>
                 <li><button>Login</button></li>  
             </ul>
         </nav>

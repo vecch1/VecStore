@@ -4,12 +4,62 @@
     font-family: 'Times New Roman';
 }
 
-ul {
-    list-style: none;
+header {
+    border-bottom: 1px solid #2b2b2b;
+    padding: 1rem 1rem;
+    color: #229f06;
+    display: flex;
+    align-items: center;
+    background-color: #575454;
+}
+
+
+#search-container {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+  }
+
+#search-input {
+    background-color: #edf0f4;
+    border-radius: 7px;
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+    color: #ddd;
+    width: 300px;
 }
 
 a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar li{
+    margin-left: 58%;
+}
+
+#nav-bar a {
+    color: #e4e2e2;
+}
+#nav-bar a:hover {
+    color: #bfbebe;
+}
+
+#nav-bar button {
+    border: none;
+    border-radius: 7px;
+    width: 160%;
+    height: 105%;
+    background-color: rgb(21, 21, 249);
+    color: #fff;
+}
+
+#nav-bar button:hover {
+    background-color: rgb(17, 17, 122);
+}
 
