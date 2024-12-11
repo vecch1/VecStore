@@ -60,14 +60,14 @@ ul {
 #nav-bar button {
     border: none;
     border-radius: 7px;
-    width: 160%;
-    height: 105%;
-    background-color: rgb(21, 21, 249);
+    width: 165%;
+    height: 108%;
+    background-color: rgb(45, 45, 251);
     color: #fff;
 }
 
 #nav-bar button:hover {
-    background-color: rgb(17, 17, 122);
+    background-color: rgb(37, 37, 147);
 }
 
 #main-container {
