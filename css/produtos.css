@@ -78,7 +78,7 @@ ul {
 }
 
 #main-header h1 {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #main-header label {
@@ -98,5 +98,16 @@ ul {
 }
 
     
+#main-produtos {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+   
+}
 
-
+.produtos {
+    text-align: center;
+    padding: 1px;
+    flex-basis: 20%;
+}
