@@ -73,16 +73,30 @@ ul {
 
 #main-header  {
     display: flex;
-    margin-left: 540px;
     margin-top: 20px;
+   
 }
 
-#main-header h3 {
-    margin-right: 15px;
+#main-header h1 {
+    margin-left: 10px;
 }
 
-#main-header input[type="text"]{
-    width: 100px;
-    height: 15px;
-    margin-top: 4px;
+#main-header label {
+    margin-left: 70%;
+    font-size: 16px;
+    margin-top: 12px;
 }
+
+#options {
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 32px;
+    margin-top: 5px;
+
+}
+
+    
+
+
