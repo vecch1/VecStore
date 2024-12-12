@@ -113,8 +113,14 @@ ul {
     padding: 2px;
 }
 
+#main-container a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
 #main-img {
-    margin-left: 50%;
+    margin-left: 57%;
     margin-top: -18%;
 }
 

@@ -15,15 +15,7 @@ header {
     color: #ffffff;
     display: flex;
     align-items: center;
-    background-color: #ff0e0e;
-
-    position: fixed;
-    top: 0; 
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    box-sizing: border-box;
-    
+    background-color: #ff0e0e;  
 }
 
 
@@ -76,4 +68,21 @@ ul {
 
 #nav-bar button:hover {
     background-color: rgb(37, 37, 147);
+}
+
+
+#main-header  {
+    display: flex;
+    margin-left: 540px;
+    margin-top: 20px;
+}
+
+#main-header h3 {
+    margin-right: 15px;
+}
+
+#main-header input[type="text"]{
+    width: 100px;
+    height: 15px;
+    margin-top: 4px;
 }
