@@ -109,19 +109,19 @@ ul {
     margin-top: 25px; 
 }
 
-.produtos {
+.produtos-relogio {
     text-align: center;
     padding: 1px ;
     flex-basis: 20%;    
 }
 
-.produtos img {
+.produtos-relogio img {
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
 
-.produtos button {
+.produtos-relogio button {
     border: none;
     border-radius: 5px;
     background-color: rgb(52, 52, 205);
@@ -129,6 +129,13 @@ ul {
     width: 70px;
 }
 
-.produtos button:hover{
+.produtos-relogio button:hover{
     background-color: rgb(3, 3, 175);
+}
+
+.produtos-camiseta,
+.produtos-tenis,
+.produtos-casaco,
+.produtos-corrente{
+    display: none;
 }
