@@ -109,19 +109,21 @@ ul {
     margin-top: 25px; 
 }
 
+
+#main-produtos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 .produtos-relogio {
     text-align: center;
     padding: 1px ;
     flex-basis: 20%;    
 }
 
-.produtos-relogio img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
 
-.produtos-relogio button {
+#main-produtos button {
     border: none;
     border-radius: 5px;
     background-color: rgb(52, 52, 205);
@@ -129,7 +131,8 @@ ul {
     width: 70px;
 }
 
-.produtos-relogio button:hover{
+
+.produtos-relogio  button:hover{
     background-color: rgb(3, 3, 175);
 }
 
