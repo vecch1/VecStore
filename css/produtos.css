@@ -101,8 +101,12 @@ ul {
 
 }
 
+#all {
+    text-align: center;
+}
+
     
-#main-produtos {
+.main-produtos {
     display: flex;
     margin-left: 15%;
     flex-wrap: wrap;  
@@ -110,35 +114,38 @@ ul {
 }
 
 
-#main-produtos img {
+.main-produtos img {
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
 
-.produtos-relogio {
+.produtos-relogio,
+.produtos-camiseta,
+.produtos-tenis,
+.produtos-bone,
+.produtos-corrente {
     text-align: center;
     padding: 1px ;
     flex-basis: 20%;    
 }
 
 
-#main-produtos button {
+.main-produtos button {
     border: none;
     border-radius: 5px;
-    background-color: rgb(52, 52, 205);
+    background-color: rgb(51, 51, 238);
     color: #fff;
     width: 70px;
 }
 
 
-.produtos-relogio  button:hover{
-    background-color: rgb(3, 3, 175);
+.main-produtos  button:hover{
+    background-color: rgb(6, 6, 174);
 }
 
-.produtos-camiseta,
-.produtos-tenis,
-.produtos-bone,
-.produtos-corrente{
-    display: none;
+
+
+.main-produtos p {
+    color: rgb(21, 35, 235);
 }
