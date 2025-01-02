@@ -72,3 +72,43 @@ ul {
 #nav-bar button:hover {
     background-color: rgb(37, 37, 147);
 }
+
+#carrinho-container {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#carrinho-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carrinho-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 9px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.carrinho-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carrinho-item h4 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.carrinho-item p {
+    font-size: 16px;
+    color: #555;
+}

@@ -29,5 +29,43 @@
             </ul>
         </nav>
     </header>
+</header>
+
+<div id="carrinho-container">
+    <div id="carrinho-itens">
+        <!-- Os itens do carrinho serão exibidos aqui -->
+    </div>
+</div>
+
+<script>
+    // Função para exibir os itens do carrinho
+    function exibirCarrinho() {
+        const carrinhoItens = document.getElementById('carrinho-itens');
+        const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+
+        // Limpa o conteúdo atual do carrinho
+        carrinhoItens.innerHTML = '';
+
+        if (carrinho.length === 0) {
+            carrinhoItens.innerHTML = '<p>O carrinho está vazio.</p>';
+        } else {
+            carrinho.forEach((produto, index) => {
+                const item = document.createElement('div');
+                item.classList.add('carrinho-item');
+
+                item.innerHTML = `
+                    <img src="${produto.imagem}" alt="${produto.nome}">
+                    <h4>${produto.nome}</h4>
+                    <p>${produto.preco}</p>
+                `;
+
+                carrinhoItens.appendChild(item);
+            });
+        }
+    }
+
+    // Chama a função para exibir o carrinho ao carregar a página
+    document.addEventListener('DOMContentLoaded', exibirCarrinho);
+</script>
 </body>
 </html>
